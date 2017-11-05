@@ -4,7 +4,8 @@ function shout(string){
 }
 
 function whisper(string){
-  console.log(string.toLowerCase()) 
+  return string.toLowerCase()
+  console.log(string.toLowerCase())
 }
 
 function sayHiToGrandma(string){
