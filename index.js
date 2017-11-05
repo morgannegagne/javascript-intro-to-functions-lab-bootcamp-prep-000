@@ -1,9 +1,10 @@
 function shout(string){
+  return string.toUpperCase()
   console.log(string.toUpperCase())
 }
 
 function whisper(string){
-  console.log(string.toLowerCase())
+  console.log(string.toLowerCase()) 
 }
 
 function sayHiToGrandma(string){
